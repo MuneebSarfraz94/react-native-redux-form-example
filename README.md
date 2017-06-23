@@ -1,7 +1,7 @@
 redux-form.gif
 ![React Native Redux Form](./redux-form.gif?raw=true "Optional Title")
 
-## Basic form with redux validation.
+## Basic form with redux data flow, async actions.
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
