@@ -10,11 +10,11 @@ import LoginForm from './src/components/LoginForm';
 export default class App extends React.Component {
   componentWillMount() {
     const config = {
-      apiKey: 'AIzaSyCcFDaGxLwHw1nYZeRLczkV0OJnLNhaZHM',
-      authDomain: 'reactnative-95139.firebaseapp.com',
-      databaseURL: 'https://reactnative-95139.firebaseio.com',
-      storageBucket: 'reactnative-95139.appspot.com',
-      messagingSenderId: '321385687390',
+      apiKey: '',
+      authDomain: '',
+      databaseURL: '',
+      storageBucket: '',
+      messagingSenderId: '',
     };
     firebase.initializeApp(config);
   }
