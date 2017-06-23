@@ -10,11 +10,11 @@ import LoginForm from './src/components/LoginForm';
 export default class App extends React.Component {
   componentWillMount() {
     const config = {
-      apiKey: '',
-      authDomain: '',
-      databaseURL: '',
-      storageBucket: '',
-      messagingSenderId: '',
+      apiKey: 'AIzaSyCcFDaGxLwHw1nYZeRLczkV0OJnLNhaZHM',
+      authDomain: 'reactnative-95139.firebaseapp.com',
+      databaseURL: 'https://reactnative-95139.firebaseio.com',
+      storageBucket: 'reactnative-95139.appspot.com',
+      messagingSenderId: '321385687390',
     };
     firebase.initializeApp(config);
   }
@@ -23,7 +23,7 @@ export default class App extends React.Component {
     const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
     return (
       <Provider store={store}>
-        <View>
+        <View style={{ marginTop: 50 }}>
           <LoginForm />
         </View>
       </Provider>
